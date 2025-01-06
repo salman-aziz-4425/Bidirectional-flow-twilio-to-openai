@@ -1,4 +1,4 @@
-# Twilio Bidirectional RND
+# Twilio Bidirectional Call Twilio to Open AI
 
 This project demonstrates bidirectional communication using Twilio's APIs with FastAPI. It allows you to create, manage, and stream calls interactively, leveraging Twilio's Media Streams and FastAPI's asynchronous capabilities.
 
