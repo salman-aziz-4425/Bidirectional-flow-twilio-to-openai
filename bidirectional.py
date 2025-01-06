@@ -156,6 +156,7 @@ async def media_stream(websocket: WebSocket):
                 if response.get("type") in LOG_EVENT_TYPES:
                     print(f"Received event: {response['type']}", response)
 
+
                 if response.get("type") == "response.audio.delta" and response.get("delta"):
                     audio_delta = {
                         "event": "media",

@@ -25,11 +25,11 @@ async def start_call(request: CallRequest):
     """
     Start an outbound call using Twilio.
     """
-    twilio_call_url = "https://deadly-adapted-joey.ngrok-free.app/twiml"  # Use your ngrok URL.
+    twilio_call_url = "https://078e-45-249-10-232.ngrok-free.app/incoming-call"  # Use your ngrok URL.
 
     call = twilio_client.calls.create(
         from_="+12185857512", # +17753177891 +12185857512 +15512967933
-        to=to,
+        to=to, 
         url=twilio_call_url
     )
     return {"status": "Call initiated", "sid": call.sid}

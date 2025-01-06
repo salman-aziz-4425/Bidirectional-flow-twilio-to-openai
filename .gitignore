@@ -4,3 +4,6 @@ __pycache__
 *.log
 *.m4a
 *.mp3
+.venv
+env/
+
